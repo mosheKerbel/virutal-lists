@@ -1,0 +1,35 @@
+/* App.css */
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .menu {
+    flex: 0 0 200px;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+    position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;  
+  }
+  
+  .component-container {
+    flex: 1;
+    padding-left: 280px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #d0d0d0;
+  }
+  
